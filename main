@@ -1,0 +1,26 @@
+//Fizzbuzz program
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+void main() {
+
+	for (int i = 1; i <= 15; i++) {
+		if (((i % 3) == 0) && ((i % 5) == 0)) {
+			cout << "Fizzbuzz ";
+		}
+		else if ((i % 3) == 0) {
+			cout << "Fizz ";
+		}
+		else if ((i % 5) == 0) {
+			cout << "Buzz ";
+		}
+		else {
+			cout << i << " ";
+		}
+		
+	}
+	cout << endl;
+}// end main
+
